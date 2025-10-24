@@ -1,0 +1,70 @@
+<div class="dashboard">
+  <!-- Barra superior -->
+  <div class="barra-superior">
+    <span class="titulo-barra">MentIA</span>
+    <button class="salir" (click)="irHome()">🚪</button>
+  </div>
+
+  <!-- Saludo usuario debajo de la barra -->
+  <div class="saludo-usuario">
+    <div class="avatar"></div>
+    <span>Hola, Usuario</span>
+  </div>
+
+  <!-- Imagen superior derecha -->
+  <img src="https://i.ibb.co/4wYQC9B6/image-Photoroom-2.png" alt="imagen" class="imagen-superior">
+
+  <!-- Sección de ánimo -->
+  <div class="estado-animo">
+    <span>¿Cómo realmente te sientes hoy?</span>
+    <div class="emojis">
+      <button>😡</button>
+      <button>😟</button>
+      <button>😐</button>
+      <button>🙂</button>
+      <button>😄</button>
+    </div>
+  </div>
+
+  <!-- Tarjetas principales (6 en total) -->
+  <div class="tarjetas">
+    <div class="tarjeta aprende">
+      <div class="icono">🎓</div>
+      <h3>Aprende</h3>
+      <p>Técnicas de estudio</p>
+    </div>
+    <div class="tarjeta gestiona">
+      <div class="icono">📅</div>
+      <h3>Gestiona</h3>
+      <p>Tus materias</p>
+    </div>
+    <div class="tarjeta planifica">
+      <div class="icono">📝</div>
+      <h3>Planifica</h3>
+      <p>Tus actividades</p>
+    </div>
+    <div class="tarjeta ideas">
+      <div class="icono">💡</div>
+      <h3>Ideas</h3>
+      <p>Inspírate</p>
+    </div>
+    <div class="tarjeta recursos">
+      <div class="icono">📚</div>
+      <h3>Recursos</h3>
+      <p>Materiales útiles</p>
+    </div>
+    <div class="tarjeta estadisticas">
+      <div class="icono">📊</div>
+      <h3>Estadísticas</h3>
+      <p>Tu progreso</p>
+    </div>
+  </div>
+
+  <!-- Barra inferior -->
+  <div class="barra-inferior">
+    <button><span class="icono" (click)="irUser()">🏠</span>Inicio</button>
+    <button><span class="icono" (click)="irRoutines()">🏋️</span>Rutinas</button>
+    <button><span class="icono" (click)="irComunidad()">👥</span>Comunidad</button>
+    <button><span class="icono" (click)="irRedApoyo()">❤️</span>Ayuda</button>
+  </div>
+</div>
